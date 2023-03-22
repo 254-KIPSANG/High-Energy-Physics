@@ -1,0 +1,13 @@
+Firstly, the code defines some constants: Boltzmann constant (k), temperature (T), electron charge (e), Planck constant (h), electron mass (m), and Fermi energy (Ef).
+
+Next, an energy range is defined using the linspace function, which creates a vector of 1001 equally spaced points between -0.5 and 0.5 eV.
+
+Then, the Fermi-Dirac distribution is calculated using the formula F = 1/(1 + exp((E-Ef)/(k*T/e))), where E is the energy range vector and F is the Fermi-Dirac distribution.
+
+The plot function is then used to plot the Fermi-Dirac distribution as a function of energy E. The title, xlabel, and ylabel functions are used to add appropriate labels to the plot, and the ylim function is used to set the y-axis limits to be between 0 and 1.
+
+Next, the code defines some parameters for the energy band diagram: conduction band energy (Ec), valence band energy (Ev), and band gap energy (Eg). The density of states in the conduction and valence bands is calculated using effective mass approximation.
+
+Finally, the carrier concentrations (n and p) are calculated using the density of states and the Fermi energy, and the energy band diagram is plotted using the plot function. The legend function is used to add a legend to the plot indicating the conduction band, valence band, and Fermi level.
+
+I hope this helps clarify the code! Let me know if you have any further questions.
