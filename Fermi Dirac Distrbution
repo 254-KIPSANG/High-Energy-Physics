@@ -10,4 +10,4 @@ Next, the code defines some parameters for the energy band diagram: conduction b
 
 Finally, the carrier concentrations (n and p) are calculated using the density of states and the Fermi energy, and the energy band diagram is plotted using the plot function. The legend function is used to add a legend to the plot indicating the conduction band, valence band, and Fermi level.
 
-I hope this helps clarify the code! Let me know if you have any further questions.
+I hope this helps clarify the code! Let me know if you have any  questions.
